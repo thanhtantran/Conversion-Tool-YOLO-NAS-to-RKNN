@@ -1,0 +1,16 @@
+detectors:
+  rknn:
+    type: rknn
+    num_cores: 3
+
+
+model:
+  model_type: yolonas
+  path: /config/models/rk_yolo_nas_s_coco-320x320-i8-rk3588-v2.0.0-1.rknn
+
+  width: 320
+  height: 320
+  input_pixel_format: bgr
+  input_tensor: nhwc      #Default frigate-rk model
+
+  labelmap_path: /labelmap/coco-80.txt
