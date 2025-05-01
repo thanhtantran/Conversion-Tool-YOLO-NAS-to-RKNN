@@ -16,7 +16,7 @@
   - s: Input Size
 
 - Convert onnx to rknn
-  Run: python export_yolonas_onnx_to_rknn.py -t rk3588 -w rk_last.onnx -n 80 -s 320
+  Run: python export_yolonas_onnx_to_rknn.py -t rk3588 -w rk_last.onnx -n 80 -s 320\n
   Run: python export_yolonas_onnx_to_rknn.py -t rk3588 -w rk_last.onnx -n 80 -s 320 -q true
 
   - t SOC Type (rk3588, rk3566 etc.)
