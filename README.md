@@ -30,3 +30,5 @@
   - n Number Classes (COCO = 80 Classes)
   - s Input Size (320x320)
   - q Quantize (True of False) If True, It's used dataset from datasets floder.
+
+** If You used custom model on frigate. You need modify frigate file.
