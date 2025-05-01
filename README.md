@@ -14,7 +14,7 @@
   
   Run:  python rockchip_yolonas_pth_to_onnx.py -m yolo_nas_s -w last.pth  --simplify -n 80 -s 320
 
-  - m: Base Model (yolo_nas_s, yolo_nas_m, yolo_nas_l
+  - m: Base Model (yolo_nas_s, yolo_nas_m, yolo_nas_l)
   - w: Weight Model
   - n: Number Classes
   - s: Input Size
