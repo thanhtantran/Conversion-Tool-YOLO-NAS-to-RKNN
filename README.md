@@ -34,5 +34,6 @@
 ** If You used custom model on frigate. You need modify frigate file.
 ** Dont' forget install RKNN toolkit2 https://github.com/airockchip/rknn-toolkit2
 
-![Uploading Screenshot from 2025-05-01 21-48-34.png…]()
+![Screenshot from 2025-05-01 21-48-34](https://github.com/user-attachments/assets/39f49b10-db78-4857-b596-b11a382daf4d)
+
 
