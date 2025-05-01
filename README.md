@@ -32,3 +32,6 @@
   - q Quantize (True of False) If True, It's used dataset from datasets folder.
 
 ** If You used custom model on frigate. You need modify frigate file.
+
+![Uploading Screenshot from 2025-05-01 21-48-34.png…]()
+
