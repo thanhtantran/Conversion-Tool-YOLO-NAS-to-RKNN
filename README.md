@@ -25,11 +25,11 @@
   
   Run: python export_yolonas_onnx_to_rknn.py -t rk3588 -w rk_last.onnx -n 80 -s 320 -q true
 
-  - t SOC Type (rk3588, rk3566 etc.)
-  - w Weight Model (onnx format)
-  - n Number Classes (COCO = 80 Classes)
-  - s Input Size (320x320)
-  - q Quantize (True of False) If True, It's used dataset from datasets folder.
+  - t: SOC Type (rk3588, rk3566 etc.)
+  - w: Weight Model (onnx format)
+  - n: Number Classes (COCO = 80 Classes)
+  - s: Input Size (320x320)
+  - q: Quantize (True of False) If True, It's used dataset from datasets folder.
 
 ** If You used custom model on frigate. You need modify frigate file.
 
