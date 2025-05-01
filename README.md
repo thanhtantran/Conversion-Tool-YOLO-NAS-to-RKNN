@@ -1,7 +1,7 @@
 # Detail:
   - rockchip_yolonas_pth_to_onnx.py
     
-    Modify From DeepStream Convert Tool + Cut Post process in YOLO-NAS ONNX Model
+    Modify From [DeepStream Convert Tool](https://github.com/marcoslucianops/DeepStream-Yolo) + Cut Post process in YOLO-NAS ONNX Model
   - export_yolonas_onnx_to_rknn.py
     
     Modify From https://github.com/MarcA711/rknn-models
@@ -25,10 +25,15 @@
   
   Run: python export_yolonas_onnx_to_rknn.py -t rk3588 -w rk_last.onnx -n 80 -s 320 -q true
 
-  - t SOC Type (rk3588, rk3566 etc.)
-  - w Weight Model (onnx format)
-  - n Number Classes (COCO = 80 Classes)
-  - s Input Size (320x320)
-  - q Quantize (True of False) If True, It's used dataset from datasets folder.
+  - t: SOC Type (rk3588, rk3566 etc.)
+  - w: Weight Model (onnx format)
+  - n: Number Classes (COCO = 80 Classes)
+  - s: Input Size (320x320)
+  - q: Quantize (True of False) If True, It's used dataset from datasets folder.
 
 ** If You used custom model on frigate. You need modify frigate file.
+** Dont' forget install RKNN toolkit2 https://github.com/airockchip/rknn-toolkit2
+
+![Screenshot from 2025-05-01 21-48-34](https://github.com/user-attachments/assets/39f49b10-db78-4857-b596-b11a382daf4d)
+
+
