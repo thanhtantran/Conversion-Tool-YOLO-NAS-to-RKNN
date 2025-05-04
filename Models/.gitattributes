@@ -2,3 +2,4 @@ rk_yolo_nas_s_coco-320x320-i8-rk3588-v2.0.0-1.rknn filter=lfs diff=lfs merge=lfs
 rk_yolo_nas_s_coco-320x320-rk3588-v2.0.0-1.rknn filter=lfs diff=lfs merge=lfs -text
 rk_yolo_nas_m_coco-320x320-i8-rk3588-v2.0.0-1.rknn filter=lfs diff=lfs merge=lfs -text
 rk_yolo_nas_m_coco-320x320-rk3588-v2.0.0-1.rknn filter=lfs diff=lfs merge=lfs -text
+rk_yolo_nas_s_coco-640x640-i8-rk3588-v2.3.2-1.rknn filter=lfs diff=lfs merge=lfs -text
