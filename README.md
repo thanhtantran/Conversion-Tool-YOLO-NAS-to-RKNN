@@ -43,6 +43,8 @@
 **Result from yolo_nas_s quantize input 320x320**
 ![Result_yolo_nas_s_i8_s320x320](https://github.com/user-attachments/assets/0abe2236-5b19-46b3-a493-0a3da7373b06)
 
+**Result from yolo_nas_s quantize input 224x224**
+![Result_yolo_nas_s_i8_s224x224](https://github.com/user-attachments/assets/e87e7304-d680-4789-b8fd-fe95a544fcef)
 
 
 
