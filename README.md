@@ -34,6 +34,15 @@
 ** If You used custom model on frigate. You need modify frigate file.
 ** Dont' forget install RKNN toolkit2 https://github.com/airockchip/rknn-toolkit2
 
+**Compare Graph before and after modify**
 ![Screenshot from 2025-05-01 21-48-34](https://github.com/user-attachments/assets/39f49b10-db78-4857-b596-b11a382daf4d)
+
+**Result from yolo_nas_s quantize input 640x640**
+![Result_yolo_nas_s_i8_s640x640](https://github.com/user-attachments/assets/d23c11e6-9028-4cd9-8d9d-104550be0885)
+
+**Result from yolo_nas_s quantize input 320x320**
+![Result_yolo_nas_s_i8_s320x320](https://github.com/user-attachments/assets/0abe2236-5b19-46b3-a493-0a3da7373b06)
+
+
 
 
