@@ -7,6 +7,7 @@
     Modify From https://github.com/MarcA711/rknn-models
   
 # How to use:
+** You can down input size this step.
 - Convert pth model to onnx (yolo_nas_s, input size 320x320, coco_label)
   
   Run:  python rockchip_yolonas_pth_to_onnx.py -m yolo_nas_s -w last.pth  --simplify -n 80 -s 320
